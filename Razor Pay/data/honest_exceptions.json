@@ -1,0 +1,62 @@
+[
+  {
+    "payout_id": "PAYOUT-0047",
+    "order_ids": [
+      "ORD-0048"
+    ],
+    "merchant_total": 11659.56,
+    "settled_amount": 11076.58,
+    "confidence": 0.55,
+    "explanation": "Observed variance of 5.000% matches Razorpay's rolling reserve hold rate (5.0%, tolerance \u00b10.35%), which would normally explain the shortfall. However, a reserve hold is a TIMING difference, not a fee \u2014 the withheld \u20b9582.98 is expected to be released after 180 days, and this system has no way to confirm the release date or whether a hold was actually applied to this specific payout versus some other cause. Confidence intentionally kept below the auto-match threshold \u2014 recommend human confirmation against the Razorpay reserve ledger before treating this as reconciled.",
+    "tools_invoked": [
+      "calculate_variance",
+      "fetch_historical_fees"
+    ],
+    "recommended_human_action": "Manually verify against the Razorpay settlement dashboard and merchant support ticket history before adjusting the ledger."
+  },
+  {
+    "payout_id": "PAYOUT-0049",
+    "order_ids": [
+      "ORD-0050"
+    ],
+    "merchant_total": 25435.57,
+    "settled_amount": 18724.02,
+    "confidence": 0.3,
+    "explanation": "Observed variance of 26.387% (\u20b96711.55) does not match the standard gateway fee (2.0%), the rolling reserve rate (5.0%), or a bundled-order reconciliation, within \u00b10.35% tolerance. No known rule explains this shortfall \u2014 it is consistent with an unrecorded partial refund, chargeback, or manual adjustment, but this cannot be confirmed from the data available to this agent. Flagging for human review rather than guessing.",
+    "tools_invoked": [
+      "calculate_variance",
+      "fetch_historical_fees"
+    ],
+    "recommended_human_action": "Manually verify against the Razorpay settlement dashboard and merchant support ticket history before adjusting the ledger."
+  },
+  {
+    "payout_id": "PAYOUT-0048",
+    "order_ids": [
+      "ORD-0049"
+    ],
+    "merchant_total": 31107.49,
+    "settled_amount": 27203.44,
+    "confidence": 0.3,
+    "explanation": "Observed variance of 12.550% (\u20b93904.05) does not match the standard gateway fee (2.0%), the rolling reserve rate (5.0%), or a bundled-order reconciliation, within \u00b10.35% tolerance. No known rule explains this shortfall \u2014 it is consistent with an unrecorded partial refund, chargeback, or manual adjustment, but this cannot be confirmed from the data available to this agent. Flagging for human review rather than guessing.",
+    "tools_invoked": [
+      "calculate_variance",
+      "fetch_historical_fees"
+    ],
+    "recommended_human_action": "Manually verify against the Razorpay settlement dashboard and merchant support ticket history before adjusting the ledger."
+  },
+  {
+    "payout_id": "PAYOUT-0046",
+    "order_ids": [
+      "ORD-0047"
+    ],
+    "merchant_total": 11396.82,
+    "settled_amount": 10826.98,
+    "confidence": 0.55,
+    "explanation": "Observed variance of 5.000% matches Razorpay's rolling reserve hold rate (5.0%, tolerance \u00b10.35%), which would normally explain the shortfall. However, a reserve hold is a TIMING difference, not a fee \u2014 the withheld \u20b9569.84 is expected to be released after 180 days, and this system has no way to confirm the release date or whether a hold was actually applied to this specific payout versus some other cause. Confidence intentionally kept below the auto-match threshold \u2014 recommend human confirmation against the Razorpay reserve ledger before treating this as reconciled.",
+    "tools_invoked": [
+      "calculate_variance",
+      "fetch_historical_fees"
+    ],
+    "recommended_human_action": "Manually verify against the Razorpay settlement dashboard and merchant support ticket history before adjusting the ledger."
+  }
+]

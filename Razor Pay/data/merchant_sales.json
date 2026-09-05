@@ -1,0 +1,302 @@
+[
+  {
+    "order_id": "ORD-0001",
+    "timestamp": "2026-08-21T03:01:00Z",
+    "amount": 36464.2,
+    "customer_id": "CUST-0008"
+  },
+  {
+    "order_id": "ORD-0002",
+    "timestamp": "2026-08-08T04:47:00Z",
+    "amount": 5470.02,
+    "customer_id": "CUST-0024"
+  },
+  {
+    "order_id": "ORD-0003",
+    "timestamp": "2026-08-29T17:05:00Z",
+    "amount": 29137.89,
+    "customer_id": "CUST-0002"
+  },
+  {
+    "order_id": "ORD-0004",
+    "timestamp": "2026-08-01T02:13:00Z",
+    "amount": 11783.05,
+    "customer_id": "CUST-0020"
+  },
+  {
+    "order_id": "ORD-0005",
+    "timestamp": "2026-08-01T17:12:00Z",
+    "amount": 35225.95,
+    "customer_id": "CUST-0023"
+  },
+  {
+    "order_id": "ORD-0006",
+    "timestamp": "2026-08-18T13:14:00Z",
+    "amount": 22285.64,
+    "customer_id": "CUST-0009"
+  },
+  {
+    "order_id": "ORD-0007",
+    "timestamp": "2026-08-26T00:48:00Z",
+    "amount": 39581.23,
+    "customer_id": "CUST-0023"
+  },
+  {
+    "order_id": "ORD-0008",
+    "timestamp": "2026-08-14T10:17:00Z",
+    "amount": 8039.76,
+    "customer_id": "CUST-0025"
+  },
+  {
+    "order_id": "ORD-0009",
+    "timestamp": "2026-08-11T03:05:00Z",
+    "amount": 18925.47,
+    "customer_id": "CUST-0012"
+  },
+  {
+    "order_id": "ORD-0010",
+    "timestamp": "2026-08-28T11:38:00Z",
+    "amount": 13328.26,
+    "customer_id": "CUST-0002"
+  },
+  {
+    "order_id": "ORD-0011",
+    "timestamp": "2026-08-24T14:34:00Z",
+    "amount": 6553.07,
+    "customer_id": "CUST-0030"
+  },
+  {
+    "order_id": "ORD-0012",
+    "timestamp": "2026-08-13T02:35:00Z",
+    "amount": 14718.15,
+    "customer_id": "CUST-0021"
+  },
+  {
+    "order_id": "ORD-0013",
+    "timestamp": "2026-08-20T11:36:00Z",
+    "amount": 9825.0,
+    "customer_id": "CUST-0003"
+  },
+  {
+    "order_id": "ORD-0014",
+    "timestamp": "2026-08-02T21:14:00Z",
+    "amount": 37992.81,
+    "customer_id": "CUST-0003"
+  },
+  {
+    "order_id": "ORD-0015",
+    "timestamp": "2026-08-28T07:55:00Z",
+    "amount": 5397.57,
+    "customer_id": "CUST-0009"
+  },
+  {
+    "order_id": "ORD-0016",
+    "timestamp": "2026-08-15T20:53:00Z",
+    "amount": 18193.36,
+    "customer_id": "CUST-0012"
+  },
+  {
+    "order_id": "ORD-0017",
+    "timestamp": "2026-08-12T06:42:00Z",
+    "amount": 13447.42,
+    "customer_id": "CUST-0030"
+  },
+  {
+    "order_id": "ORD-0018",
+    "timestamp": "2026-08-22T20:04:00Z",
+    "amount": 30041.85,
+    "customer_id": "CUST-0006"
+  },
+  {
+    "order_id": "ORD-0019",
+    "timestamp": "2026-08-18T23:15:00Z",
+    "amount": 8424.02,
+    "customer_id": "CUST-0013"
+  },
+  {
+    "order_id": "ORD-0020",
+    "timestamp": "2026-08-09T20:44:00Z",
+    "amount": 27511.06,
+    "customer_id": "CUST-0022"
+  },
+  {
+    "order_id": "ORD-0021",
+    "timestamp": "2026-08-11T01:14:00Z",
+    "amount": 40356.43,
+    "customer_id": "CUST-0026"
+  },
+  {
+    "order_id": "ORD-0022",
+    "timestamp": "2026-08-11T12:17:00Z",
+    "amount": 3709.15,
+    "customer_id": "CUST-0030"
+  },
+  {
+    "order_id": "ORD-0023",
+    "timestamp": "2026-08-19T22:20:00Z",
+    "amount": 10811.39,
+    "customer_id": "CUST-0016"
+  },
+  {
+    "order_id": "ORD-0024",
+    "timestamp": "2026-08-13T20:29:00Z",
+    "amount": 7428.27,
+    "customer_id": "CUST-0005"
+  },
+  {
+    "order_id": "ORD-0025",
+    "timestamp": "2026-08-08T23:35:00Z",
+    "amount": 26639.4,
+    "customer_id": "CUST-0024"
+  },
+  {
+    "order_id": "ORD-0026",
+    "timestamp": "2026-08-19T13:57:00Z",
+    "amount": 28800.35,
+    "customer_id": "CUST-0012"
+  },
+  {
+    "order_id": "ORD-0027",
+    "timestamp": "2026-08-08T04:32:00Z",
+    "amount": 24434.52,
+    "customer_id": "CUST-0025"
+  },
+  {
+    "order_id": "ORD-0028",
+    "timestamp": "2026-08-02T03:09:00Z",
+    "amount": 30930.13,
+    "customer_id": "CUST-0026"
+  },
+  {
+    "order_id": "ORD-0029",
+    "timestamp": "2026-08-22T13:38:00Z",
+    "amount": 3580.09,
+    "customer_id": "CUST-0013"
+  },
+  {
+    "order_id": "ORD-0030",
+    "timestamp": "2026-08-20T14:33:00Z",
+    "amount": 12692.58,
+    "customer_id": "CUST-0018"
+  },
+  {
+    "order_id": "ORD-0031",
+    "timestamp": "2026-08-28T00:43:00Z",
+    "amount": 35454.01,
+    "customer_id": "CUST-0022"
+  },
+  {
+    "order_id": "ORD-0032",
+    "timestamp": "2026-08-29T17:48:00Z",
+    "amount": 13440.02,
+    "customer_id": "CUST-0021"
+  },
+  {
+    "order_id": "ORD-0033",
+    "timestamp": "2026-08-11T03:18:00Z",
+    "amount": 21585.11,
+    "customer_id": "CUST-0015"
+  },
+  {
+    "order_id": "ORD-0034",
+    "timestamp": "2026-08-01T23:56:00Z",
+    "amount": 35403.51,
+    "customer_id": "CUST-0017"
+  },
+  {
+    "order_id": "ORD-0035",
+    "timestamp": "2026-08-25T05:32:00Z",
+    "amount": 44761.45,
+    "customer_id": "CUST-0028"
+  },
+  {
+    "order_id": "ORD-0036",
+    "timestamp": "2026-08-21T09:53:00Z",
+    "amount": 31488.05,
+    "customer_id": "CUST-0020"
+  },
+  {
+    "order_id": "ORD-0037",
+    "timestamp": "2026-08-07T04:23:00Z",
+    "amount": 37480.77,
+    "customer_id": "CUST-0018"
+  },
+  {
+    "order_id": "ORD-0038",
+    "timestamp": "2026-08-25T16:58:00Z",
+    "amount": 526.74,
+    "customer_id": "CUST-0011"
+  },
+  {
+    "order_id": "ORD-0039",
+    "timestamp": "2026-08-16T00:07:00Z",
+    "amount": 45560.28,
+    "customer_id": "CUST-0029"
+  },
+  {
+    "order_id": "ORD-0040",
+    "timestamp": "2026-08-27T09:15:00Z",
+    "amount": 3308.37,
+    "customer_id": "CUST-0029"
+  },
+  {
+    "order_id": "ORD-0041",
+    "timestamp": "2026-08-19T02:05:00Z",
+    "amount": 35996.52,
+    "customer_id": "CUST-0027"
+  },
+  {
+    "order_id": "ORD-0042",
+    "timestamp": "2026-08-03T17:49:00Z",
+    "amount": 6598.38,
+    "customer_id": "CUST-0022"
+  },
+  {
+    "order_id": "ORD-0043",
+    "timestamp": "2026-08-16T17:10:00Z",
+    "amount": 13354.25,
+    "customer_id": "CUST-0028"
+  },
+  {
+    "order_id": "ORD-0044",
+    "timestamp": "2026-08-20T13:13:00Z",
+    "amount": 45551.3,
+    "customer_id": "CUST-0025"
+  },
+  {
+    "order_id": "ORD-0045",
+    "timestamp": "2026-08-24T22:12:00Z",
+    "amount": 35077.03,
+    "customer_id": "CUST-0013"
+  },
+  {
+    "order_id": "ORD-0046",
+    "timestamp": "2026-08-22T20:23:00Z",
+    "amount": 21746.85,
+    "customer_id": "CUST-0017"
+  },
+  {
+    "order_id": "ORD-0047",
+    "timestamp": "2026-08-15T03:15:00Z",
+    "amount": 11396.82,
+    "customer_id": "CUST-0011"
+  },
+  {
+    "order_id": "ORD-0048",
+    "timestamp": "2026-08-01T18:35:00Z",
+    "amount": 11659.56,
+    "customer_id": "CUST-0008"
+  },
+  {
+    "order_id": "ORD-0049",
+    "timestamp": "2026-08-01T02:45:00Z",
+    "amount": 31107.49,
+    "customer_id": "CUST-0008"
+  },
+  {
+    "order_id": "ORD-0050",
+    "timestamp": "2026-08-02T10:04:00Z",
+    "amount": 25435.57,
+    "customer_id": "CUST-0009"
+  }
+]

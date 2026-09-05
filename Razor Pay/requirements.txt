@@ -1,0 +1,32 @@
+# Automated Settlement Reconciliation Engine — pinned dependencies
+#
+# Pin rationale: mcp==1.9.4 is intentionally pinned below the mcp 2.x line.
+# As of this build, mcp>=2.0 renamed FastMCP -> MCPServer and changed several
+# constructor/tool-registration signatures; pinning to the last stable 1.x
+# release keeps this repo buildable against the FastMCP API documented in
+# AGENTS.md without silently drifting onto an unreviewed breaking change.
+# Bump deliberately — see AGENTS.md "Dependency upgrade policy".
+
+pydantic>=2.7,<3.0
+mcp==1.9.4
+pytest>=8.0,<9.0
+
+# --- Edge-case ML reasoning engine (optional, --engine ml) --------------
+scikit-learn>=1.4,<2.0
+joblib>=1.3,<2.0
+
+# --- Intentionally NOT included: langchain / langgraph -----------------
+# The brief suggested langchain/langgraph for the agent orchestration
+# layer. This build implements the agent as a hand-rolled MCP client
+# (see src/agent/reconciler.py) instead, for two concrete reasons:
+#   1. Auditability: a regulator-ready audit trail needs every AI match
+#      traced to an explicit, reproducible rule — not a framework-internal
+#      graph execution that isn't the actual subject of this track.
+#   2. Verified-API discipline: this project pins mcp==1.9.4 only after
+#      inspecting the installed package's real signatures (see AGENTS.md).
+#      langgraph's current API surface was not available to verify against
+#      in this environment, and guessing at it would risk exactly the kind
+#      of hallucinated integration the brief explicitly forbids.
+# To swap in langgraph: wrap src/agent/reconciler.py's investigation loop
+# in a StateGraph node that still calls the same MCP ClientSession — the
+# MCP server and its tool contracts do not need to change.
